@@ -1,0 +1,196 @@
+(footprint "SolderConnector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0659892a-741f-46e9-85dd-0f008b945ce6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderConnector"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ef173070-fb4e-4462-950c-4c3fd7fdc4dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3ffb02d-b29b-4d9b-98d3-7cbdd5821716")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3d42b7b-075c-4d77-898f-d668f2664f4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "685ea4c6-7c23-4130-8c17-803f09001ccc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "99b9ba6d-38e2-4866-8d03-b403d8380226")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -2.54 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1 -1.5) (xy -0.988573 -1.606283) (xy -0.938839 -1.739624) (xy -0.853553 -1.853553) (xy -0.739624 -1.938839)
+					(xy -0.606283 -1.988573) (xy -0.5 -2) (xy 0.5 -2) (xy 0.606283 -1.988573) (xy 0.739624 -1.938839)
+					(xy 0.853553 -1.853553) (xy 0.938839 -1.739624) (xy 0.988573 -1.606283) (xy 1 -1.5) (xy 1 1.5)
+					(xy 0.988573 1.606283) (xy 0.938839 1.739624) (xy 0.853553 1.853553) (xy 0.739624 1.938839) (xy 0.606283 1.988573)
+					(xy 0.5 2) (xy -0.5 2) (xy -0.606283 1.988573) (xy -0.739624 1.938839) (xy -0.853553 1.853553)
+					(xy -0.938839 1.739624) (xy -0.988573 1.606283) (xy -1 1.5)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_rect
+				(start -1 -2)
+				(end 1 -1.5)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "18d9f2fb-1c55-40e4-ad00-3b21b7877924")
+	)
+	(pad "1" thru_hole oval
+		(at -2.54 1.016)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "58cb2a09-589f-4338-8fba-6d0de27ee217")
+	)
+	(pad "2" smd custom
+		(at 0 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1 -1.5) (xy -0.988573 -1.606283) (xy -0.938839 -1.739624) (xy -0.853553 -1.853553) (xy -0.739624 -1.938839)
+					(xy -0.606283 -1.988573) (xy -0.5 -2) (xy 0.5 -2) (xy 0.606283 -1.988573) (xy 0.739624 -1.938839)
+					(xy 0.853553 -1.853553) (xy 0.938839 -1.739624) (xy 0.988573 -1.606283) (xy 1 -1.5) (xy 1 1.5)
+					(xy 0.988573 1.606283) (xy 0.938839 1.739624) (xy 0.853553 1.853553) (xy 0.739624 1.938839) (xy 0.606283 1.988573)
+					(xy 0.5 2) (xy -0.5 2) (xy -0.606283 1.988573) (xy -0.739624 1.938839) (xy -0.853553 1.853553)
+					(xy -0.938839 1.739624) (xy -0.988573 1.606283) (xy -1 1.5)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_rect
+				(start -1 -2)
+				(end 1 -1.5)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "c4aff7f7-6c0d-42f1-80b7-bf6f72010d27")
+	)
+	(pad "2" thru_hole oval
+		(at 0 1.016)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "843b97e4-5908-4596-86b4-6953fe19657f")
+	)
+	(pad "3" smd custom
+		(at 2.54 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1 -1.5) (xy -0.988573 -1.606283) (xy -0.938839 -1.739624) (xy -0.853553 -1.853553) (xy -0.739624 -1.938839)
+					(xy -0.606283 -1.988573) (xy -0.5 -2) (xy 0.5 -2) (xy 0.606283 -1.988573) (xy 0.739624 -1.938839)
+					(xy 0.853553 -1.853553) (xy 0.938839 -1.739624) (xy 0.988573 -1.606283) (xy 1 -1.5) (xy 1 1.5)
+					(xy 0.988573 1.606283) (xy 0.938839 1.739624) (xy 0.853553 1.853553) (xy 0.739624 1.938839) (xy 0.606283 1.988573)
+					(xy 0.5 2) (xy -0.5 2) (xy -0.606283 1.988573) (xy -0.739624 1.938839) (xy -0.853553 1.853553)
+					(xy -0.938839 1.739624) (xy -0.988573 1.606283) (xy -1 1.5)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_rect
+				(start -1 -2)
+				(end 1 -1.5)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "55eefae3-e50f-4e5d-acbf-b1ad73a22c3b")
+	)
+	(pad "3" thru_hole oval
+		(at 2.54 1.016)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e1508eea-3956-414e-b778-ab40c7b5cb4b")
+	)
+)
